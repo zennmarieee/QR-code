@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;700&family=Poppins:ital,wght@0,200;0,600;1,200&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Outfit;
+}
+
+.qr-card {
+    width: 290px;
+    height: 450px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 13px;
+    box-shadow: 2px 2px 6px hsl(212, 45%, 89%);
+    
+}
+
+img {
+    display: block;
+    width: 260px;
+    margin: 1em auto;
+    border-radius: 13px;
+}
+
+.text {
+    text-align: center;
+    padding: 0 1.6em;
+
+}
+
+h2 {
+    font-size: larger;
+    margin-bottom: 0.5em;
+
+}
+
+p {
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+
+    
+}
